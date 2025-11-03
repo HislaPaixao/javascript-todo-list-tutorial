@@ -6,11 +6,16 @@
   "main": "index.html",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dwyl/todomvc-vanilla-javascript-elm-architecture-example.git"
+    "url": "git+https://github.com/dwyl/todomvc-vanilla-javascript-elm-architecture-example.git"
   },
   "author": "@dwyl & friends!",
   "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "complexity-report": "^2.0.0-alpha",
     "decache": "^4.6.0",
+    "eslint": "^9.39.0",
+    "eslint-formatter-compact": "^9.0.1",
+    "globals": "^16.5.0",
     "jsdom": "^26.0.0",
     "jsdom-global": "^3.0.2",
     "live-server": "^1.1.0",
@@ -43,5 +48,12 @@
   "pre-commit": [
     "test",
     "check-coverage"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/dwyl/todomvc-vanilla-javascript-elm-architecture-example/issues"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
 }
